@@ -7,7 +7,7 @@
 #include <WiFi.h>
 #include <HttpClient.h>
 
-DHT dht(DHTPIN, DHTTYPE);
+DHT dht(DHTPIN, DHTTYPE); // Setting DHT22 as sensor, defined in defination.h
 
 void setup()
 {
